@@ -49,10 +49,10 @@ jobs:
           path: ./terraform
       - terraform/plan:
           path: ./terraform
-      - terraform/apply:
-          path: ./terraform
-      # - terraform/destroy:
+      # - terraform/apply:
       #     path: ./terraform
+      - terraform/destroy:
+          path: ./terraform
 
 workflows:
 
